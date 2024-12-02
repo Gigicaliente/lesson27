@@ -1,0 +1,185 @@
+.item1 {
+display: block;
+background-color: blue;
+}
+.item2 {
+display: inline;
+background-color: blueviolet;
+}
+
+.item3 {
+display: flex;
+background-color: orangered;
+}
+
+.container {
+background-color: yellow;
+display: flex;
+width: 200px;
+height: 50px;
+margin-top: 30px;
+justify-content: space-around;
+align-items: center;
+}
+
+
+
+.container2 {
+    margin-top: 30px;
+    height: 120px;
+    display: flex;
+    flex-flow: column wrap;
+    background-color: gray;
+    justify-content: space-around;
+}
+
+.container2__box2 {
+    width: 50px;
+    height: 30px;
+    background-color: green;
+    border: 1px solid black;
+}
+
+.container3 {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    width: 300px;
+    background-color: aquamarine;
+    align-items: center;
+
+}
+
+.container3__box3 {
+    padding: 10px;
+    margin: 20px;
+    height: 20px;
+    width: 20px;
+    background-color: blue;
+    text-align: center;
+    font-size: 13px;
+    color: aliceblue;
+
+}
+
+.container4 {
+    margin-top: 30px;
+    display: flex;
+    background-color: rgb(179, 51, 161);
+}
+
+/* .container4__box4 {
+flex-grow: 1;
+}
+
+.container4__box5 {
+flex-shrink: 1;
+}
+
+.container4__box6 {
+flex-basis: ;
+} */
+
+.container4__box4 {
+flex: 1 1 100px;
+}
+
+.container4__box5 {
+    flex: 0 0 100px;
+}
+
+.container4__box6 {
+    flex: 2 2 100px; 
+}
+
+.container5 {
+    margin-top: 30px;
+    display: flex;
+    background-color: rgb(145, 209, 81);
+    
+}
+
+.container5__box7 {
+    flex-basis: 50%;
+    }
+    
+.container5__box8 {
+    flex-grow: 1;
+    }
+    
+.container5__box9 {
+    flex-basis: 100px;
+    }
+
+    nav {
+        margin-top: 30px;
+        display: flex;
+        background-color: blanchedalmond;
+        width: auto;
+        height: 100px;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .nav__link {
+        color: darkslategrey;
+        font-size: 20px;
+        text-decoration: none;
+    }
+
+    .gallery {
+       background-color: dodgerblue;
+       margin-top: 30px;
+       display: flex;
+       flex-wrap: wrap;
+    }
+
+    .gallery__card1 {
+        height: 20px;
+        background-color: bisque;
+        margin: 10px;
+        text-align: center;
+        flex-grow: 1;
+
+    }
+
+    .gallery__card2 {
+        height: 20px;
+        background-color: bisque;
+        margin: 10px;
+        text-align: center;
+        flex-shrink: 1;
+    }
+
+    .gallery__card3 {
+        flex-basis: 200px;
+        height: 20px;
+        background-color: bisque;
+        margin: 10px;
+        text-align: center;
+    }
+
+    .gallery__card4 {
+        width: 25%;
+        height: 20px;
+        background-color: bisque;
+        margin: 10px;
+        text-align: center;
+    }
+
+    .gallery__card5 {
+        width: 25%;
+        height: 20px;
+        background-color: bisque;
+        margin: 10px;
+        text-align: center;
+    }
+
+    .gallery__card6 {
+        width: 25%;
+        height: 20px;
+        background-color: bisque;
+        margin: 10px;
+        text-align: center;
+    }
